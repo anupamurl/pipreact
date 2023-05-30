@@ -229,7 +229,7 @@ const Profile = (props: any) => {
                                                 {
                                                     ( data.public)? 
 
-                                                    <a href={'http://44.202.113.44:8080/generatereport/'+userinfo['_id']+ "/" + data['_id']  }  className="black_color">Download PDF</a>
+                                                    <a href={'http://52.207.134.133:8080/generatereport/'+userinfo['_id']+ "/" + data['_id']  }  className="black_color">Download PDF</a>
                                                     :           <a   className="black_color"  style={{opacity: 0.3}} >Download PDF</a> }
                                                 
                                            

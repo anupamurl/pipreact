@@ -425,7 +425,7 @@ addMeal(finalData)
                                     <div className="finsh_publish_div">
                                         {
                                             (!pubStatus)?  <a href={void(0)} onClick={updateStatusAction} className="diet_button border_button">Final Publish</a>  :
-                                            <a href={'http://44.202.113.44:8080/generatereport/'+allmealplan['uid']+ "/" + allmealplan._id }   className="diet_button border_button">Download PDF</a>
+                                            <a href={'http://52.207.134.133:8080/generatereport/'+allmealplan['uid']+ "/" + allmealplan._id }   className="diet_button border_button">Download PDF</a>
 
                                         }
 

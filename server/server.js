@@ -13,7 +13,7 @@ let path = require("path");
 
 
 var corsOptions = {
-    origin: ["http://localhost:4200", "http://localhost:8081", 'http://44.202.113.44:8081'],
+    origin: ["http://localhost:4200", "http://localhost:8081", 'http://52.207.134.133:8081'],
     credentials: true
 }
 
